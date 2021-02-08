@@ -24,4 +24,4 @@ npm start / yarn start
 ```
 
 ### Live Demo
-[https://cuaca-kota.netlify.app/]()
+[https://cuaca-kota.netlify.app/](https://cuaca-kota.netlify.app/)

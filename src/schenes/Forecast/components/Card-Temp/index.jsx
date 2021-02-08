@@ -61,7 +61,8 @@ const Forecast = (props) => {
 								</div>
 							</div>
 						</div>
-					)) : <div>Loading....</div>}
+					)) : <div><img src='/assets/images/spinner.gif' alt="Loading..." /></div>
+				}
 				</div>
 			</React.Fragment>
     )

@@ -5,7 +5,6 @@ import { BrowserRouter } from 'react-router-dom';
 import Routes from './routes';
 import * as serviceWorker from './serviceWorker';
 import configureStore from './store';
-import './index.css';
 
 const store = configureStore();
 

@@ -13,6 +13,8 @@ const SelectCity = (props) => {
         { value: {lat: -6.914864, long: 107.608238}, label: 'Bandung' },
         { value: {lat: -6.966667, long: 110.416664}, label: 'Semarang' },
         { value: {lat: 33.441792, long: -94.037689}, label: 'London' },
+        { value: {lat: 1.290270, long: 103.851959}, label: 'Singapore' },
+        { value: {lat: 13.736717, long: 100.523186}, label: 'Bangkok' },
         { value: {lat: 39, long: 55}, label: 'China' },
     ]
 

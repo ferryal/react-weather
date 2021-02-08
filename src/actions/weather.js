@@ -25,14 +25,13 @@ function fetchFailed() {
 export function fetchForecast(city) {
   return (dispatch) => {
     dispatch(loading());
-    axios.get(`${config.apiUrl}/onecall?lat=-6.200000&lon=106.816666&units=metric&appid=${config.apiKey}`, {
+    axios.get(`${config.apiUrl}/onecall?lat=${city.lat}&lon=${city.long}&units=metric&appid=${config.apiKey}`, {
       headers: {
         'Content-Type': 'application/json',
       }
     }).then((res) => {
       if (res.status === 200) {
         const response = res.data;
-        console.log(response)
         dispatch(fetchSuccess(response));
       } else {
         dispatch(fetchFailed());
